@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # E-Learning Platform
 
@@ -144,3 +145,6 @@ DevOps Project/
 - POST /api/courses/progress/:courseId/module/:moduleId - Update module progress
 - POST /api/courses/test/:courseId/submit - Submit test
 - GET /api/courses/certificate/:courseId - Download certificate
+=======
+# E-Learner-Platform
+>>>>>>> 107bbf714d438862ce0d579e670ecafae6d2dc61
