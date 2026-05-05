@@ -69,14 +69,15 @@ pipeline {
         }
 
         stage('Deploy to Kubernetes') {
-            steps {
-                sh '''
-                    kubectl apply -f k8s/
-                    kubectl rollout restart deployment/backend-deployment
-                    kubectl rollout restart deployment/frontend-deployment
+             steps {
+                 sh '''
+                 kubectl apply -f k8s/
+                 kubectl rollout restart deployment/backend
+                 kubectl rollout restart deployment/frontend
                 '''
-            }
-        }
+             }
+    }
+ 
 
     }
 
