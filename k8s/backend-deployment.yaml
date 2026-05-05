@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: backend
-          image: elearning-backend
-          imagePullPolicy: Never   # ✅ MUST BE HERE
+          image: abbaskazi0612/elearning-backend:latest
+          imagePullPolicy: Always   # ✅ MUST BE HERE
           ports:
             - containerPort: 5000
           env:

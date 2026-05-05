@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: elearning-frontend
-          imagePullPolicy: Never   # IMPORTANT for Minikube local images
+          image: abbaskazi0612/elearning-frontend:latest
+          imagePullPolicy: Always   # IMPORTANT for Minikube local images
           ports:
             - containerPort: 3000
